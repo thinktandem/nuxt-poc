@@ -1,0 +1,60 @@
+.links {
+  background: linear-gradient(to right,#000,#555);
+  padding: 9px;
+}
+.nav-link a {
+  padding-left: 7px;
+  padding-right: 7px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.nav-link a:hover {
+  color: #ccc;
+}
+.header {
+  background: linear-gradient(to left,#4CB8C4,#3CD3AD);
+  color: #fff;
+}
+.container
+{
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+.title
+{
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  display: block;
+  font-weight: 300;
+  font-size: 100px;
+  letter-spacing: 1px;
+}
+.subtitle
+{
+  font-weight: 300;
+  font-size: 42px;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+}
+.content {
+  padding: 12px;
+  text-align: left;
+  min-height: 527px;
+}
+/** footer styles **/
+.footer {
+  display: block;
+  background-color: #34495e;
+  color: #fff;
+  min-height: 37px;
+  padding: 12px;
+}
+.copy-right {
+  text-align: center;
+  font-size: small;
+}
+.footer-logo {
+  width: 166px;
+  vertical-align: middle;
+}

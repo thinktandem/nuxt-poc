@@ -1,0 +1,27 @@
+.container {
+  margin: 0;
+  min-height: 500px;
+}
+.col-3 {
+  background: linear-gradient(to bottom,#000,#555);
+  width: 100%;
+  min-height: 500px;
+}
+.col-3 h3 {
+  color: #cfcfcf;
+}
+.col-3 .layout--lando-two-col-left-nav {
+  margin-bottom: 3px;
+  display: block;
+  color: #fff;
+}
+.col-3 .layout--lando-two-col-left-nav:hover {
+  color: #ccc;
+}
+
+.col-9 h1 {
+  text-align: center;
+}
+.col-9 {
+  text-align: left;
+}

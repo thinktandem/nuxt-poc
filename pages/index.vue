@@ -1,11 +1,11 @@
 <template>
-  <section class="container">
+  <section class="all-the-content">
     <siteHeader/>
     <div class="content">
       Stuff of the gods.
-      <div class="get-lando">
-        <a href="/download" class="button-grey">Download</a>
-      </div>
+      <a href="/download" class="btn btn-primary btn-lg download-lando">
+        Download Lando!
+      </a>
     </div>
     <foot/>
   </section>

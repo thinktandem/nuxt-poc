@@ -1,5 +1,12 @@
 module.exports = {
   /*
+  ** Load the bootstrap
+  */
+  modules: [
+    ['@nuxtjs/bootstrap-vue', { css: true }]
+  ],
+
+  /*
   ** Headers of the page
   */
   head: {

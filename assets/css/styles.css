@@ -13,10 +13,10 @@
   color: #ccc;
 }
 .header {
-  background: linear-gradient(to left,#4CB8C4,#3CD3AD);
+  background: linear-gradient(to right,#BD587A, #9b3658);
   color: #fff;
 }
-.container
+.all-the-content
 {
   display: block;
   align-items: center;
@@ -40,7 +40,15 @@
 .content {
   padding: 12px;
   text-align: left;
-  min-height: 527px;
+  min-height: 488px;
+}
+.content .download-lando {
+  background-color: #69B8E3;
+  display: block;
+}
+
+.content .download-lando:hover {
+  background-color: #9b3658;
 }
 /** footer styles **/
 .footer {

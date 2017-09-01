@@ -42,6 +42,26 @@
   text-align: left;
   min-height: 488px;
 }
+.content .catchies-container {
+  margin-bottom: 8px;
+}
+.content .lando-catchies {
+  margin-left: 7px;
+  margin-right: 7px;
+  min-height: 111px;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+}
+.content .lando-catchies-londonberry {
+  background-color: #007A6B;
+}
+.content .lando-catchies-uniform {
+  background-color: #024163;
+}
+.content .lando-catchies-hibiscus {
+  background-color: #BB3261;
+}
 .content .download-lando {
   background-color: #69B8E3;
   display: block;

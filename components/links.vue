@@ -7,6 +7,9 @@
       <a href="https://github.com/kalabox/lando" target="_blank">GitHub</a>
     </span>
     <span class="nav-link">
+      <a href="/tech" target="_blank">All the Tech</a>
+    </span>
+    <span class="nav-link">
       <a href="https://twitter.com/kalaboxme" target="_blank">tw</a>
     </span>
   </nav>

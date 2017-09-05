@@ -3,23 +3,36 @@ Lando
 
 Lando: smart, stable, fast, flexible local development.
 
-Build Setup
------------
+Set up the App Locally
+----------------------
 
-``` bash
-# install dependencies
-$ npm install # Or yarn install
+* Download code
+  * `git clone git@github.com:thinktandem/nuxt-poc.git`
+* `cd nuxt-poc`
+* `lando start`
+* Watch the files
+  * `lando grunt`
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+Write now the `lando grunt` command is running the `nuxt generate` command which
+builds out the entire site as a static asset in the `dist` directory.  That in and
+of itself is fine, but it takes about 20s for that to happen.
 
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+```bash
+Completed in 21.933s at Tue Sep 05 2017 14:29:02 GMT+0000 (UTC) - Waiting...
 ```
+
+Perhaps we can improve the dev experience by using a different command or only
+swapping out changed files in our `grunt watch` command?
+
+Adding Pages
+------------
+
+Add a new `vue` file in the `pages` directory.  Nuxt automatically configures
+the routing for new pages.  So if you add a file called `blah.vue` to the `pages`
+directory then after the rebuild the route `/blah` will be available with the
+new content.
+
+ 
 General File Structure
 ----------------------
 
